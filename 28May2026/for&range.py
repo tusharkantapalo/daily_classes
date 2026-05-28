@@ -1,5 +1,6 @@
 name="Tusharkanta Palo"
 for i in range(0,11,1):
-    print(name[i])
+    print(name[i], end=" ,")
+print("\n")
 for i in range(10):
-    print(i)
+    print(i, end=" ,")#end syntax
