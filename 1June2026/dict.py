@@ -3,4 +3,5 @@ d = {}
 for i in range(n):
     d[i] = input("Enter: ")
 print(d)
-print(d[1])
+print(d[2])
+print(type(d))
