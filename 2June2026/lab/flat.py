@@ -1,7 +1,7 @@
 def flatten(lst):
     result = []
     for item in lst:
-        if type(item) == list:
+        if isinstance(item, list):
             result.extend(flatten(item))
         else:
             result.append(item)
