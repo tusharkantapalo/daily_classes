@@ -17,7 +17,7 @@ class BankAccount:
     def withdraw(self, withdraw_amount):
         if withdraw_amount < self.balance:
             self.balance -= withdraw_amount
-            return f"Current balance is {self.balance}"
+            return f"Current balance is {self.balance}/- rupees"
         else:
             return "Not sufficient balance"
         
@@ -41,7 +41,7 @@ obj = SavingsAccount(name, balance, int_rate)
 
 res1 = obj.add_int()
 
-print(f"Current balance after adding interest is: {res1}")
+print(f"Current balance after adding interest is: {res1}/- rupees")
 
 res2 = obj.withdraw(withdraw)
 
